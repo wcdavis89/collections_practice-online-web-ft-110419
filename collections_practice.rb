@@ -40,4 +40,8 @@ array
   
   def sum_array(array)
     array.inject do |sum,n| 
-      sum+n
+      solution=sum+n
+      solution
+    end
+  end
+  
