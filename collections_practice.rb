@@ -45,3 +45,9 @@ array
     end
   end
   
+  def add_s(array)
+    array.each do |string|
+      string[0,2,3].insert("s")
+    end
+  end
+  
