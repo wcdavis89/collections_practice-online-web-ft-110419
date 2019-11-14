@@ -14,7 +14,7 @@ end
 
 
 def swap_elements(array,num,num2)
-puts array[num], array[num2] = array[num2], array[num]
+return array[num], array[num2] = array[num2], array[num]
   end
 end
   
