@@ -33,5 +33,6 @@ array
       element.start_with?("a")
       return element
     end
+    end
   end
   
