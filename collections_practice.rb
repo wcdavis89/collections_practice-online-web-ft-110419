@@ -13,7 +13,7 @@ end
   end
 end
 
-def swap_elementsfromto(array,a,b)
+def swap_elements_from_to(array,a,b)
 array[a], array[b] = array[b], array[a]
 return array
   end
