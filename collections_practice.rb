@@ -45,12 +45,12 @@ array
     end
   end
   
-  def add_s(array)
-    array.each_with_index do |string, index|
-      if index=string[1]
-        string==string
-      else 
-        string << "s"
+def add_s(array)
+  array.collect do |string|
+    if array[1] == string
+      string
+    else
+    string + "s"
     end
   end
 end
