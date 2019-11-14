@@ -38,3 +38,5 @@ array
     return new_array
   end
   
+  def add_s(array)
+    
