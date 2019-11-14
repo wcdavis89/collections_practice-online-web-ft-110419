@@ -14,6 +14,7 @@ end
 
 
 def swap_elements(array,index,index2)
+  array.sort do |array, index,index2|
   array[index],array[index2]<=>array[index2],array[index]
 end
 end
