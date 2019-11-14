@@ -15,7 +15,7 @@ end
 
 def swap_elements_from_to(array)
 array[1], array[2] = array[2], array[1]
-return array
+array
   end
  
  
