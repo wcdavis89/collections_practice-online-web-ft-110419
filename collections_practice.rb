@@ -22,3 +22,9 @@ array
    return array.reverse 
  end
   
+  def kesha_maker(array)
+    new_array=[]
+    array.each do |string|
+      new_array=string.insert[2]("$")
+    end
+  end
