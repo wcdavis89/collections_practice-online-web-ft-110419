@@ -13,8 +13,4 @@ end
   end
 
 
-def swap_elements(array,num,num2)
-return array[num], array[num2] = array[num2], array[num]
-  end
-end
   
