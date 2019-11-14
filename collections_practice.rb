@@ -29,7 +29,8 @@ array
   end
   
   def find_a(array)
-    if array.start_with?("a") |element|
+    if array.each do |element|
+      element.start_with?("a")
       return element
     end
   end
