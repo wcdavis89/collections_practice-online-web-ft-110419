@@ -9,11 +9,8 @@ end
 
   def sort_array_char_count(array)
   array.sort do |a,b|
-  if a.size<b.size
-  -1
-  else a.size>b.size
-  1
-  end
-  end
+  a.size<b.size
+  new_array << a
+end
   array
 end
