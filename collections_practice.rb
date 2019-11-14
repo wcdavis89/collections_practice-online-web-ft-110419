@@ -13,11 +13,10 @@ end
   end
 end
 
-def swap_elements(array,a,b)
-array.index[a][b] do |a,b|
+def swap_elementsfromto(array,a,b)
 array[a], array[b] = array[b], array[a]
-p array
-    end
+return array
   end
+ 
  
   
