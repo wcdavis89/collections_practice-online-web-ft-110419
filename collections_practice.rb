@@ -32,8 +32,9 @@ array
     new_array=[]
     if array.each do |element|
       element.start_with?("a")
-      return new_array << element
+     new_array << element
     end
+    return new_array
     end
   end
   
