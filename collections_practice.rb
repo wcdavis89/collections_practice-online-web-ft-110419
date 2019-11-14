@@ -30,8 +30,8 @@ array
   
   def find_a(array)
     new_array=[]
-    if array.each do |element|
-      element.start_with?("a")
+    array.each do |element|
+     if element.start_with?("a")
      new_array << element
     end
     return new_array
