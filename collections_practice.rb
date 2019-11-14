@@ -50,7 +50,7 @@ array
       if index=string[1]
         string==string
       else 
-        string.insert("s")
+        string << "s"
     end
   end
 end
