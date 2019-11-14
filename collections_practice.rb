@@ -8,7 +8,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort_by do |element| element.size
-    return array
+  array.sort 
+    return 
   end
 end
