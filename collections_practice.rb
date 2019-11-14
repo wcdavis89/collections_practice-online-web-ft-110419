@@ -34,8 +34,7 @@ array
      if element.start_with?("a")
      new_array << element
     end
-    
     end
-    
+    return new_array
   end
-  return new_array
+  
