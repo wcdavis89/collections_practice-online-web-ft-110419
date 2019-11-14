@@ -13,5 +13,5 @@ end
   end
 
 
-def swap_elements(array)
+def swap_elements(array,num1,num2)
   
