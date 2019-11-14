@@ -11,4 +11,7 @@ end
   array.sort do |a,b|
     a.size<=>b.size
   end
-end
+
+
+def swap_elements(array)
+  
